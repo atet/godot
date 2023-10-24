@@ -1,10 +1,10 @@
 # [atet](https://github.com/atet) / [**_godot_**](https://github.com/atet/3dp/blob/main/README.md#atet--godot)
 
-[![]()](#nolink)
+[![.img/logo_godot.png](.img/logo_godot.png)](#nolink)
 
-# Introduction to Godot 4.1.2+
+# Introduction to Godot
 
-These are instructions to quickly set up a new Godot developement environment for C#.
+These are instructions to quickly set up a new Godot (v4.1.2+) developement environment for C#.
 
 Excluding time to download and install dependencies, _**you will be able to complete this tutorial in ~10 minutes**_
 
@@ -29,6 +29,18 @@ Excluding time to download and install dependencies, _**you will be able to comp
 --------------------------------------------------------------------------------------------------
 
 ## 0. Preface
+
+[![.img/fig1_godot_3.5.jpg](.img/fig1_godot_3.5.jpg)](#nolink)
+
+Godot has come a long way from when I first used it back in 2018. With the recent 2023 Unity fiasco, now's a better time than any to leverage this powerful, free, and open-source game development engine.
+
+**Features** | **Options**
+--- | ---
+**Game Modes** | Single-player, Multi-player (local & networked)
+**Formats** | 2D, 3D, extended reality (XR)
+**Platforms** | Desktop, Mobile, Web-based
+
+Although Godot traditionally uses its built-in interpreted language GDScript, we are going to use the more familiar (especially to Unity users) and compiled C# language.
 
 [Back to Top](#table-of-contents)
 
