@@ -103,7 +103,7 @@ There will be a couple configurations on Godot that only needs to be enabled onc
 ### Do This Once per New Project
 
 1. `Project` → `Tools` → `C#` → Select `Create C# solution`
-2. In the bottom tabs: `MSBuild` → `Build` → `Build Project` (**do not initially open C# scripts from Godot, [see below](###-do-this-per-vscode-restart)**)
+2. In the bottom tabs: `MSBuild` → `Build` → `Build Project` (**do not initially open C# scripts from Godot, see below**)
 
 [Back to Top](#table-of-contents)
 
@@ -166,4 +166,4 @@ Issue | Solution
 
 --------------------------------------------------------------------------------------------------
 
-<p align="center">Copyright © 2022-∞ Athit Kao, <a href="http://www.athitkao.com/tos.html" target="_blank">Terms and Conditions</a></p>
+<p align="center">Copyright © 2023-∞ Athit Kao, <a href="http://www.athitkao.com/tos.html" target="_blank">Terms and Conditions</a></p>
