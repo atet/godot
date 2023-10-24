@@ -19,6 +19,7 @@ Excluding time to download and install dependencies, _**you will be able to comp
 * [2. Installation](#2-installation)
 * [3. VSCode](#3-vscode)
 * [4. Godot](#4-godot)
+* [5. Next Steps](#5-next-steps)
 
 ### Supplemental
 
@@ -48,11 +49,35 @@ Although Godot traditionally uses its built-in interpreted language GDScript, we
 
 ## 1. Requirements
 
+Basically any computer made in the past decade will run Godot.
+
+You don't need a powerful computer to develop on Godot nor do you need too much hard drive space as Godot's development environment weights in at under 150 MB while Unity can be multiple GBs. 
+
+You will have to get used to switching back and forth between some manual drag-and-drop actions within Godot and coding in VSCode. This is not unique to Godot and is standard practice with other game engines like Unity as well.
+
 [Back to Top](#table-of-contents)
 
 --------------------------------------------------------------------------------------------------
 
 ## 2. Installation
+
+### Godot (Portable)
+
+Godot with C# support is available for Windows, MacOS, and Linux in a portable format, meaning you do not need to install the program to Windows.
+
+For Windows, you can download a portable .NET version (for C# support) here: https://godotengine.org/download/windows/
+
+[![.img/fig2_download_godot.jpg](.img/fig2_download_godot.jpg)](#nolink)
+
+Once the `Godot_v4.1.2-stable_mono_win64.zip` file is downloaded, you can uncompress and use Godot right away (after some additional setup for C# compatibility).
+
+### Visual Studio Code (Portable)
+
+VSCode for Windows can be found here: https://code.visualstudio.com/download
+
+[![.img/fig3_download_vscode.jpg](.img/fig3_download_vscode.jpg)](#nolink)
+
+Once the `VSCode-win32-x64-1.83.1.zip` file is downloaded, you can uncompress and use VSCode right away (after some additional setup for C# and Godot compatibility).
 
 [Back to Top](#table-of-contents)
 
@@ -65,6 +90,12 @@ Although Godot traditionally uses its built-in interpreted language GDScript, we
 --------------------------------------------------------------------------------------------------
 
 ## 4. Godot
+
+[Back to Top](#table-of-contents)
+
+--------------------------------------------------------------------------------------------------
+
+## 5. Next Steps
 
 [Back to Top](#table-of-contents)
 
