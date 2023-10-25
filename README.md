@@ -48,9 +48,13 @@ Although Godot traditionally uses its built-in interpreted language GDScript, we
 
 ## 1. Requirements
 
-Basically any computer made in the past decade will run Godot; we will use WIndows 10 in this tutorial.
+### Hardware
+
+Any computer made in the past decade will run Godot; we will use Windows 10 in this tutorial.
 
 You don't need a powerful computer to develop on Godot nor do you need too much hard drive space as Godot's development environment weights in at under 150 MB while Unity can be multiple GBs. 
+
+### Software
 
 We will install two programs as you will switch back and forth between manual drag-and-drop actions in Godot and coding in VSCode during development; this is standard practice with other game engines like Unity as well.
 
@@ -138,6 +142,13 @@ Intellisense should now be fully enabled in VSCode:
 --------------------------------------------------------------------------------------------------
 
 ## 5. Next Steps
+
+You are now ready to embark on your journey to become an applications developer! Whether your applications are productivity programs, teaching tools, or games for fun, you now have everything you need to get started.
+
+[![.img/fig6_godot_applications.jpg](.img/fig6_godot_applications.jpg)](#nolink)
+> Programs above from the [2022 Godot Showcase](https://godotengine.org/showcase/)
+
+**TODO**: Add pitch and link to my next Godot tutorial
 
 [Back to Top](#table-of-contents)
 
