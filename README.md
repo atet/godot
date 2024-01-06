@@ -1,4 +1,4 @@
-# [atet](https://github.com/atet) / [**_godot_**](https://github.com/atet/3dp/blob/main/README.md#atet--godot)
+# [atet](https://github.com/atet) / [**_godot_**](https://github.com/atet/godot/blob/main/README.md#atet--godot)
 
 [![.img/logo_godot.png](.img/logo_godot.png)](#nolink)
 
@@ -18,7 +18,7 @@ Excluding time to download and install dependencies, _**you will be able to comp
 * [1. Requirements](#1-requirements)
 * [2. Installation](#2-installation)
 * [3. Godot](#3-godot)
-* [4. VSCode](#4-vscode)
+* [4. VS Code](#4-vs-code)
 * [5. Next Steps](#5-next-steps)
 
 ### Supplemental
@@ -56,7 +56,9 @@ You don't need a powerful computer to develop on Godot nor do you need too much 
 
 ### Software
 
-We will install two programs as you will switch back and forth between manual drag-and-drop actions in Godot and coding in VSCode during development; this is standard practice with other game engines like Unity as well.
+We will install two programs as you will **switch back and forth** between manual drag-and-drop actions in Godot and coding in Visual Studio Code (a.k.a. VS Code) during development; **this is standard practice with other game engines like Unity as well**.
+
+[![.img/fig7_godot_vscode.jpg](.img/fig7_godot_vscode.jpg)](#nolink)
 
 [Back to Top](#table-of-contents)
 
@@ -64,7 +66,7 @@ We will install two programs as you will switch back and forth between manual dr
 
 ## 2. Installation
 
-We will install the .NET framework (for C# development) and use portable versions of the Godot and Visual Studio Code (a.k.a. VSCode) development environments. Portable means you will not have to install the programs to Windows and can just use them once downloaded.
+We will install the .NET framework (for C# development) and use portable versions of the Godot and VS Code development environments. Portable means you will not have to install the programs to Windows and can just use them once downloaded.
 
 ### .NET Framework
 
@@ -82,13 +84,13 @@ Once the `Godot_v4.1.2-stable_mono_win64.zip` (or higher version) file is downlo
 
 ### Visual Studio Code
 
-VSCode is available for Windows, MacOS, and Linux in a portable format.
+VS Code is available for Windows, MacOS, and Linux in a portable format.
 
 For Windows, you can download a portable version here: https://code.visualstudio.com/download
 
 [![.img/fig3_download_vscode.jpg](.img/fig3_download_vscode.jpg)](#nolink)
 
-Once the `VSCode-win32-x64-1.83.1.zip` (or higher version) file is downloaded, you can uncompress and use VSCode right away after some additional setup for C# and Godot compatibility detailed below.
+Once the `VSCode-win32-x64-1.83.1.zip` (or higher version) file is downloaded, you can uncompress and use VS Code right away after some additional setup for C# and Godot compatibility detailed below.
 
 [Back to Top](#table-of-contents)
 
@@ -112,11 +114,11 @@ There will be a couple configurations in Godot that only needs to be enabled onc
 
 --------------------------------------------------------------------------------------------------
 
-## 4. VSCode
+## 4. VS Code
 
-Though you can use the Script Editor from within Godot with C#, it will not support Intellisense like VSCode can; *believe me when I say you're going to want that*.
+Though you can use the Script Editor from within Godot with C#, it will not support Intellisense like VS Code can; *believe me when I say you're going to want that*.
 
-There will be a configurations in VSCode that only needs to be enabled once and a specific way to open your projects if you've closed them to ensure proper C# Intellisense support.
+There will be a configurations in VS Code that only needs to be enabled once and a specific way to open your projects if you've closed them to ensure proper C# Intellisense support.
 
 ### Do This Once
 
@@ -126,14 +128,14 @@ There will be a configurations in VSCode that only needs to be enabled once and 
 
 2. `Files` → `Preferences` → `Settings` → `Extensions` → `C#` → `Omnisharp` → Enable `Dotnet > Server: Use Omnisharp`
 
-### Do This per VSCode Restart
+### Do This per VS Code Restart
 
-**You must always initially open your Godot C# files by opening the project folder from VSCode and not from a C# script within Godot for Intellisense to work properly**
+**You must always initially open your Godot C# files by opening the project folder from VS Code and not from a C# script within Godot for Intellisense to work properly**
 
 1. `File` → `Open Folder...` → Navigate to top-level folder of Godot project
 2. Now you can open C# scripts from either VSCode or within Godot
 
-Intellisense should now be fully enabled in VSCode:
+Intellisense should now be fully enabled in VS Code:
 
 [![.img/fig5_vscode_intellisense.jpg](.img/fig5_vscode_intellisense.jpg)](#nolink)
 
@@ -168,7 +170,7 @@ Intro to Intellisense | https://code.visualstudio.com/docs/editor/intellisense
 
 Issue | Solution
 --- | ---
-**"Intellisense is not working!"** | You must follow the configuration, setup, and instructions to open projects above for Intellisense to work in VSCode
+**"Intellisense is not working!"** | You must follow the configuration, setup, and instructions to open projects above for Intellisense to work in VS Code
 **"It's not working!"** | This concise tutorial has distilled hours of sweat, tears, and troubleshooting; _it can't not work_
 
 [Back to Top](#table-of-contents)
